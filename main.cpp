@@ -22,6 +22,15 @@ int main(int argc, char* argv[])
 
 	//判断符号
 	if(!strcmp(symbol, "+")) add(a, b);
-	else if(!strcmp(symbol, "-")) sub(a, b);
+	else if(!strcmp(symbol, "-"))
+	{
+		if(cmp(a,b))sub(a, b);
+		else
+		{
+			cout<<"-";
+			sub(b, a);
+		}	
+	}
+	cout<<endl;
 	return 0;
 }

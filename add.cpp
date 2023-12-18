@@ -13,5 +13,4 @@ void add(vector<int> a, vector<int> b)
 		temp /= 10;
 	}
 	for(int i = c.size() - 1; i >= 0; i--) cout<<c[i];
-	cout<<endl;
 }
