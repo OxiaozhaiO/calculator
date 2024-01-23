@@ -20,10 +20,15 @@ int main(int argc, char* argv[])
 	for(int i = len1-1; i >= 0; i--) a.push_back(strSum1[i]-'0');
 	for(int i = len2-1; i >= 0; i--) b.push_back(strSum2[i]-'0');
 
-	//判断符号
+	//判断+-*/
 	if(!strcmp(symbol, "+")) add(a, b);
 	else if(!strcmp(symbol, "-"))
 	{
+		if(!strcmp(strSum1,strSum2))
+		{
+			cout<<"0"<<endl;
+			return 0;
+		}
 		if(cmp(a,b))sub(a, b);
 		else
 		{
