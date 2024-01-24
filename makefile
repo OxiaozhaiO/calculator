@@ -1,5 +1,5 @@
 project=main.o sub.o add.o
-target=xz
+target=xzcal
 CC=g++
 $(target):$(project)
 	$(CC) -o $(target) $(project) 
