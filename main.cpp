@@ -36,6 +36,9 @@ int main(int argc, char* argv[])
 			sub(b, a);
 		}	
 	}
+	else if(!strcmp(symbol,"*"))
+	{
+	}
 	cout<<endl;
 	return 0;
 }
