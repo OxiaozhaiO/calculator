@@ -1,4 +1,7 @@
+#define IOSTREAM
 #include<iostream>
+
+#define IOSTREAM
 #include<vector>
 using namespace std;
 bool cmp(vector<int> a, vector<int> b)

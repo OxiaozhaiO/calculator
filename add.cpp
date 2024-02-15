@@ -1,5 +1,9 @@
-#include<vector>
+#define IOSTREAM
 #include<iostream>
+
+#define VECTOR
+#include<vector>
+
 using namespace std;
 void add(vector<int> a, vector<int> b)
 {

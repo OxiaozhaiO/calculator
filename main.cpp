@@ -1,7 +1,18 @@
+#ifndef IOSTREAM
+#define IOSTREAM
 #include<iostream>
+#endif
+
+#ifndef STRING 
+#define	STRING 
 #include<string>
-#include<vector>
 #include<cstring>
+#endif
+
+#ifndef VECTOR
+#define VECTOR
+#include<vector>
+#endif
 
 using namespace std;
 
@@ -38,6 +49,7 @@ int main(int argc, char* argv[])
 	}
 	else if(!strcmp(symbol,"*"))
 	{
+
 	}
 	cout<<endl;
 	return 0;
